@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 30;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .column {
+        float: left;
+        width: 20%;
+        padding: 5px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "text-align: center;">Home Page</h1>
+    <h3>
+        Welcome to our dashboard titled Movies Data Visualization and Analysis. We are Team 11 and our team members are Siddharth Sundar, Kareem Hirani, and Rochita Das.
+        As our title indicates, our team looked to analyze various trends in the movie industry and this dashboard shows what we have found. You can easily navigate
+        other areas of our dashboard by using our side panel navigation bar. We drew inspiration from TMDB, NetFlix, Amazon Prime, Hulu, and Disney Plus. Hope you enjoy the movie data visualization experience!
+    </h3>
+    <div class="row">
+        <div class="column">
+            <img id="tmdb" src="https://play-lh.googleusercontent.com/IO3niAyss5tFXAQP176P0Jk5rg_A_hfKPNqzC4gb15WjLPjo5I-f7oIZ9Dqxw2wPBAg" width="75%">
+        </div>
+        <div class="column">
+            <img id="netflix" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" width="75%">
+        </div>
+        <div class="column">
+            <img id="prime" src="https://assets.materialup.com/uploads/4045167a-85e3-4787-a6d1-e91a32071bf7/preview.jpg" width="75%">
+        </div>
+        <div class="column">
+            <img id="hulu" src="https://play-lh.googleusercontent.com/4whGAVjZGrrlNxzheKAfBXrxggtyAb4euWLeQI8fDfVfdnFEZjE0DZTJ8DKoh64pqcIa" width="75%">
+        </div>
+        <div class="column">
+            <img id="disneyPlus" src="https://dailymagazinenews.com/wp-content/uploads/2022/01/disneyplus.jpg" width="75%">
+        </div>
+      </div>
+
+</body>
+</html>
