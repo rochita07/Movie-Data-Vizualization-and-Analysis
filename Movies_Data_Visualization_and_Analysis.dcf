@@ -1,0 +1,13 @@
+name: Movies_Data_Visualization_and_Analysis
+title: Movies_Data_Visualization_and_Analysis
+username:
+account: city-search-engine-2020
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6228173
+bundleId: 5867361
+url: https://city-search-engine-2020.shinyapps.io/Movies_Data_Visualization_and_Analysis/
+when: 1651638802.26467
+lastSyncTime: 1651638802.26467
+asMultiple: FALSE
+asStatic: FALSE

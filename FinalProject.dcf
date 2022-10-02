@@ -1,0 +1,13 @@
+name: FinalProject
+title: FinalProject
+username:
+account: city-search-engine-2020
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6228203
+bundleId: 5867260
+url: https://city-search-engine-2020.shinyapps.io/FinalProject/
+when: 1651636235.60312
+lastSyncTime: 1651636235.60312
+asMultiple: FALSE
+asStatic: FALSE
